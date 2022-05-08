@@ -34831,11 +34831,32 @@ public:
    std::vector<int> sort(std::vector<int> list);
 };
 # 5 "C:\\Users\\benja\\Code\\University\\sem12022\\algorithm_design__data_structures\\week9\\practical7-searching-sorting\\main.cpp" 2
+# 1 "C:\\Users\\benja\\Code\\University\\sem12022\\algorithm_design__data_structures\\week9\\practical7-searching-sorting\\RecursiveBinarySearch.h" 1
+
+
+
+       
+
+
+
+class RecursiveBinarySearch
+{
+public:
+    bool search(std::vector<int>, int);
+
+private:
+    bool binarySearch(int left, int right, std::vector<int> list);
+};
+# 6 "C:\\Users\\benja\\Code\\University\\sem12022\\algorithm_design__data_structures\\week9\\practical7-searching-sorting\\main.cpp" 2
 
 
 using namespace std;
 
 int main() {
+
+
     cout << "Hello World" << endl;
+
+
     return 0;
 }
