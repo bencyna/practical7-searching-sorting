@@ -11,11 +11,11 @@ using namespace std;
 int main() {
     Sort * sort1;
 
-    BubbleSort * bubbleSort = new BubbleSort();
+    QuickSort * quickSort = new QuickSort();
 
-    sort1 = bubbleSort;
+    sort1 = quickSort;
 
-    vector<int> list1 = {1, 2, 3 , 4};
+    vector<int> list1 = {8, 3, 9, 438, 322, 23, 3};
     vector<int> list = sort1->sort(list1);
 
     for (int i = 0; i < list.size(); i++) {

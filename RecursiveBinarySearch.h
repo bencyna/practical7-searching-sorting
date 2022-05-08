@@ -11,7 +11,7 @@ public:
     bool search(std::vector<int>, int);
 
 private:
-    bool binarySearch(int left, int right, std::vector<int> list);
+    bool binarySearch(int left, int right, std::vector<int> list, int target);
 };
 
 #endif
