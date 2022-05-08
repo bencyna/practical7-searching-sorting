@@ -12,15 +12,10 @@ using namespace std;
 int main() {
 
     vector<int> integers;
-    string line;
-
-    getline(cin, line);
-
-    for (int i = 0; i < line.length(); i++) {
-        if (line.at(i) != ' ') {
-            int number = stoi(string(1, line.at(i)));
-            integers.push_back(number);
-        }
+    int i;
+    
+    while (std::cin >> i) {
+        integers.push_back(i);
     }
 
     Sort *sort;
