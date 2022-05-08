@@ -3,5 +3,5 @@
 using namespace std;
 
 vector<int> BubbleSort::sort(std::vector<int> list) {
-    
+    return list;
 }
